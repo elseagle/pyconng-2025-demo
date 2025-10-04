@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pyconng-2025-autogen-demos"
+version = "0.1.0"
+description = "AutoGen multi-agent system demos for PyCon NG 2025"
+authors = ["Oluwasogo Ogundowole"]
+readme = "README.md"
+packages = [{include = "demo1_content_pipeline"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pyautogen = "^0.2.35"
+python-dotenv = "^1.0.0"
+termcolor = "^2.4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.12.0"
+ruff = "^0.1.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
