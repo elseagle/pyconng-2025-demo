@@ -120,10 +120,7 @@ PYCONNG_2025/
 ```
 
 ## Learning Resources
-
 - [AutoGen Documentation](https://microsoft.github.io/autogen/)
-- [Last Year's Talk: Observability Tools for LLMs](https://youtube.com/...)
-- [Speaker's X/LinkedIn](#)
 
 ## Troubleshooting
 
